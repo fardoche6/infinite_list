@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:http/http.dart' as http;
-import 'package:infinite_list/posts/bloc/post_bloc.dart';
-import 'package:infinite_list/posts/view/post_list.dart';
+import 'package:infinite_list/posts/posts.dart';
 
 class PostPage extends StatelessWidget {
   const PostPage({super.key});
